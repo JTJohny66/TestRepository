@@ -8,7 +8,6 @@ public class Main {
         list.addLast(20);
         list.addFirst(5);
         list.printList();  // Output: 5 -> 10 -> 20 -> null
-        list.printList();
 
         list.removeFirst();
         list.printList();  // Output: 10 -> 20 -> null
